@@ -47,6 +47,9 @@ filtered_freq = [f if (950 < index < 1050 and f > 1) else 0 for index, f in enum
 ```
 ![alt-text-1](Figure_3.png "title-1")
 
+Finally, we will use the inverse fourier transform formula to revert our wave back to the time domain, and plot the results.
+
+![alt-text-1](Figure_4.png "title-1")
 
 
 
