@@ -36,4 +36,8 @@ If we plot the data thus far, this is what we wil have.
 
 ![alt-text-1](Figure_1.png "title-1")
 
+Lets take a look at the frequency domain of our noisy wave.
+
+![alt-text-1](Figure_2.png "title-1")
+
 
