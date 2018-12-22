@@ -34,6 +34,6 @@ combined_signal = sine_wave + sine_noise
 ```
 If we plot the data thus far, this is what we wil have.
 
-![alt-text-1](figure_1.png "title-1")
+![alt-text-1](Figure_1.png "title-1")
 
 
