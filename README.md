@@ -36,8 +36,17 @@ If we plot the data thus far, this is what we wil have.
 
 ![alt-text-1](Figure_1.png "title-1")
 
-Lets take a look at the frequency domain of our noisy wave.
+Lets take fourier transform to take a look at the frequency domain of our noisy wave.
 
 ![alt-text-1](Figure_2.png "title-1")
+
+Next, we will apply our filter to the wave to try to clean it. We will do this with the follwing logic and plot the results.
+
+```python
+filtered_freq = [f if (950 < index < 1050 and f > 1) else 0 for index, f in enumerate(freq)]
+```
+![alt-text-1](Figure_3.png "title-1")
+
+
 
 
