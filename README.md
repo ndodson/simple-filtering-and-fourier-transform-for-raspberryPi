@@ -21,9 +21,9 @@ sine_wave = [np.sin(2 * np.pi * frequency * x1 / sampling_rate) for x1 in range(
 Analyzing the wave, this is what we will have
 
 <p align="center">
-  <img width="460" height="460" src="hhttps://github.com/ndodson/simple-filtering-and-fourier-transform-for-raspberryPi/blob/master/frequency.png">
+  <img width="460" height="460" src="https://github.com/ndodson/simple-filtering-and-fourier-transform-for-raspberryPi/blob/master/frequency.png">
 </p>
 
 <p align="center">
-  <img width="460" height="460" src="https://github.com/ndodson/simple-filtering-and-fourier-transform-for-raspberryPi/blob/master/sin.png">
+  <img width="600" height="200" src="https://github.com/ndodson/simple-filtering-and-fourier-transform-for-raspberryPi/blob/master/sin.png">
 </p>
