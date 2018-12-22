@@ -52,4 +52,6 @@ Finally, we will use the inverse fourier transform formula to revert our wave ba
 ![alt-text-1](Figure_4.png "title-1")
 
 
+The entire code will be as follows
 
+```python
