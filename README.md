@@ -17,3 +17,13 @@ amplitude = 16000
 file = "test.wav"
 sine_wave = [np.sin(2 * np.pi * frequency * x1 / sampling_rate) for x1 in range(num_samples)]
 ```
+
+Analyzing the wave, this is what we will have
+
+<p align="center">
+  <img width="460" height="460" src="https://github.com/ndodson/simple-filtering-and-fourier-transform-for-raspberryPi/frequency.png">
+</p>
+
+<p align="center">
+  <img width="460" height="460" src="https://github.com/ndodson/simple-filtering-and-fourier-transform-for-raspberryPi/sin.png">
+</p>
