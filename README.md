@@ -23,14 +23,7 @@ sine_wave = [np.sin(2 * np.pi * frequency * x1 / sampling_rate) for x1 in range(
 Analyzing the clean wave, this is what we will have
 
 
-
-<p align="center">
-  <img width="460" height="300" src="https://github.com/ndodson/simple-filtering-and-fourier-transform-for-raspberryPi/blob/master/frequency.png">
-</p>
-
-<p align="center">
-  <img width="600" height="300" src="https://github.com/ndodson/simple-filtering-and-fourier-transform-for-raspberryPi/blob/master/sin.png">
-</p>
+![alt-text-1](sin.png "title-1") ![alt-text-2](frequency.png "title-2")
 
 
 Next, we will add noise to our wave. We will do this by adding the followin lines to the above code.
