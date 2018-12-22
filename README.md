@@ -26,9 +26,14 @@ Analyzing the clean wave, this is what we will have
 ![alt-text-1](sin.png "title-1") ![alt-text-2](frequency.png "title-2")
 
 
-Next, we will add noise to our wave. We will do this by adding the followin lines to the above code.
+Next, we will add noise to our wave. We will do this by adding the following lines to the above code.
 
 ``` python
 sine_noise = [np.sin(2 * np.pi * noisy_freq * x1/  sampling_rate) for x1 in range(num_samples)]
 combined_signal = sine_wave + sine_noise
 ```
+If we plot the data thus far, this is what we wil have.
+
+![alt-text-1](figure_1.png "title-1")
+
+
