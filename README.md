@@ -1,5 +1,7 @@
 # simple-filtering-and-fourier-transform-for-raspberryPi
 
+This repository is meant to be educational and used as a crude introduction to signal processing. 
+
 
 First, we will generate a .wav file representing a 1000 Hz sine wave. Here is the code to do so.
 
